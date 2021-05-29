@@ -1,0 +1,565 @@
+#TituloP{
+	margin-top: -9px;	/*Acomoda el titulo principal de la pag */
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-bottom: -14px;
+	padding-left: 55px;
+	color: white;
+}
+#tex1{
+    margin-bottom: -50px;
+    font-family: helvatica; /*Estilo para el titulo de presentacion*/
+    font-size: 300%;
+    color: white;
+    text-align: center;
+}
+
+.imgtitulo{			/*Acomoda la img que acompaña el titulo principal*/
+	size: 50px;
+	width: 35px;
+	margin-top: -220px;
+	margin-left: 10px;
+}
+
+body{
+	background-image: url("images/popa1.jpg");
+     background-position: center center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;   /*Pone la imagende fondo de pantalla en la pagina de inicio de sesion*/
+    background-size: cover;
+
+}
+#body1{
+    background-image: url("images/popa2.jpg"); /*Pone la imagende fondo de pantalla en la pagina de inicio*/
+}
+
+#body2{
+    background-image: url("images/popa3.jpg"); /*Pone la imagende fondo de pantalla en la pagina de inicio*/
+}
+#sub1{
+	display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;/*Acomoda el texto de "usuario"*/
+    margin-top: 70px;
+    margin-left: 50px;
+    float: left;
+}
+
+
+#sub2{
+	display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;/*Acomoda el texto de "contraseña"*/
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#sub3{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;/*Acomoda el texto de "Registrarse"*/
+    margin-top: 0px;
+    margin-left: 50px;
+}
+
+.subtitulos {
+	color: black; /*como se ven todos las palabras en el section */
+	font-size: 20px;
+}
+
+.cajacorreo{
+	display: inline-block;
+    width: 80%;		/*como se ven las cajas de texto */
+    height: 30%;
+    padding: 4px 10px;
+    font-size: 16px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+}
+.cajastexto{
+	
+	margin-left: 50px; /*forma para la caja de texto del correo login */
+}
+#blocklogin{
+	background-color: white;
+	margin: 5%;
+	width: 20%;
+    border-radius: 8px;
+    padding:  0 0 10px; /*Caja que es contenida en el form*/
+    margin-left: 35%;
+    margin-top: 5%;
+    padding-top: -50px;
+
+}
+.btlogin{
+	text-decoration: none;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;       /*Estilos para el boton de ingresar*/
+    font-size: 25px;
+    font-style: italic;
+    color: white;
+    background-color: red;
+    border-radius: 15px;
+    border: 3px double red;
+    display: inline-block;
+    margin-left: 32%;
+    margin-top: 30px;
+
+}
+#subtitulop{
+    color: black;
+    font-size: 30px;
+}
+.subi{
+    display: inline-block;
+    font-size: 150%;
+    list-style: none;
+    padding:5px;            /*Estilos para la barra de tareas*/
+    text-decoration:none;
+    float: right;
+}
+.subi a{
+    color: white;   /*Estilos para botones en la barra de tareas*/
+    text-decoration: none;
+}
+#pa1{
+    font-size: 3000%;
+    margin-left: 30%;  /*estilo titulo*/
+    font:  oblique bold 400% helvetica;
+    color: #0049FF;
+    margin-bottom: 0px;
+}
+
+#pa2{
+    font-size: 3000%;
+    margin-left: 22%;  /*estilo titulo*/
+    font:  oblique bold 400% helvetica;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.imgcorrer {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;   /*EStilos para el contenedor de las imagenes*/
+    margin-left: 30%;
+    display: inline-block;
+}
+
+.imgcorrer ul {
+    display: flex;
+    padding: 0; /*estilos para la lista*/
+    width: 400%;
+    
+    animation: cambio 20s infinite alternate linear;/*Llama la funcion que hace el movimiento de las imagenes*/
+}
+
+.imgcorrer li {
+    width: 100%;
+    list-style: none; /*estilos para los objetos dentro de la lista*/
+    display: inline-block;
+}
+
+.imgcorrer img {
+    width: 40%; /*Estilos para la imagenes en la lista*/
+    display: inline-block;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}/*Funcion que efectua el movimiento de las imagenes*/
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+
+}
+
+#imgrotar{
+        margin-block-end: 0em;
+        margin-block-start: 0em;
+}
+
+.btcorrer{
+    display:inline-block;
+    position:relative;
+}
+.btcorrer a {
+	position:absolute;
+    bottom:5em;
+    right: 75%;
+    bottom: 20px;
+    background-color:#8F0005;
+    border-radius:1.5em;
+    color:white;
+    text-transform:uppercase;
+    padding:1em 1.5em;
+
+}
+
+
+#formulario{
+	margin-left: 30%;
+	margin-top: 1%;
+    background-color: white;
+    margin-right: 40%;
+    border-radius: 15px;
+    padding: 5px;
+    position:relative;
+}
+
+.registros{
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.registros label {
+    font: ginebra;
+}
+.registros input {
+    border-radius: 7px;
+    margin-left: 1%;
+}
+
+#btform a{
+    bottom:1em;
+    bottom: 1px;
+    margin-left: 20%;
+    background-color:#8F0005;
+    border-radius:1.5em;
+    color:white;
+    text-transform:uppercase;
+    padding: 0em 5px;
+}
+#tablap{
+    background-color: white;
+    padding:auto;
+    border-radius: 8px;
+    margin-top: 1%; 
+    display: inline-block;
+    margin-left: 23%;
+}
+#tablap2{
+    background-color: white;
+    padding:auto;
+    border-radius: 8px;
+    margin-top: 3%; 
+    display: inline-block;
+    margin-left: 30%;
+}
+
+#tablap3{
+    background-color: white;
+    padding:auto;
+    border-radius: 8px;
+    margin-top: 3%; 
+    display: inline-block;
+    margin-left: 30%;
+    margin-right: 45%;
+}
+#Addelemento img{
+    width: 4%;
+}
+#Addelemento{
+    padding: 10px;
+}
+
+#Titelementos{
+    font-family: helvatica;
+    font-size: 200%;
+    color: blue;
+    text-align: center;
+}
+#Titelementos ul{
+float: right;
+
+}
+
+#Titelementos a{
+text-decoration: none;
+color: blue;
+}
+
+#Titelementos a:hover {
+    color:red;
+}
+
+#Titelementos input{
+    float: right;
+    background-color: red;
+}
+#regi ul{
+    margin: auto;
+    padding: 10px;
+    padding-inline-start: 5px;
+
+}
+
+.a40{
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+}
+.a1{
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+}
+.a2{
+    width: 70px;
+    display: inline-block;
+}
+.a3{
+    width: 90px;
+    display: inline-block;
+    text-align: center;
+}
+.a4{
+    width: 110px;
+    display: inline-block;
+    text-align: center;
+}
+.a5{
+    width: 130px;
+    display: inline-block;
+    text-align: center;
+}
+.a6{
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+}
+.a7{
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+.a8{
+    width: 90px;
+    display: inline-block;
+    text-align: center;
+}
+.a50{
+     text-align: right;
+     margin: auto;
+     display: inline-block;
+ }
+#encaregi{
+    background-color: #0078FF;
+    padding-bottom: 20px;
+}
+#blocklogin2{
+    background-color: white;
+    padding:auto;
+    border-radius: 8px;
+    margin-top: 8%; 
+    display: inline-block;
+    margin-left: 25%;
+}
+#blocklogin2 ul{
+
+    padding: auto;
+}
+#blocklogin3{
+    background-color: white;
+    padding:auto;
+    border-radius: 8px;
+    margin-top: 8%; 
+    display: inline-block;
+    margin-left: 38%;
+}
+#inacio{
+    margin: auto;
+}
+#btaceptar{
+    margin-top: 0px;
+    margin-left: 43%;
+    margin-bottom: 5px;
+}
+#lis1{
+    float: left;
+}
+#lis2{
+    float: right;
+}
+
+
+#lista ul:nth-child(odd) { background: #468DDD; }
+#lista ul:nth-child(even) { background: #1681FA; }
+
+#lista{
+    margin: auto;
+    padding: auto;
+    display: inline-block;
+}
+
+#menuc{
+    margin-left: 20%;
+    margin-top: 10%;
+    background-color: ;
+    margin-right: 20%;
+    border: 10px solid white;
+}
+.btmenu{
+    border-radius: 10px;
+    width: 20%;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 17px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+    margin: 2%;
+  }
+.btmenu:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+
+}
+.main{
+    margin: auto;
+    padding: 1%;
+}
+.main2{
+    margin: auto;
+    padding: 1%;
+
+}
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #CEDCE4; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+ 
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+}
+ 
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+ 
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+ 
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+    overflow:hidden;
+    width:100%;
+}
+body {
+  overflow-x: hidden;
+}
+ 
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #01A4FB;
+    overflow: hidden; 
+}
+ 
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+ 
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+ 
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+ 
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+ 
+a svg{
+  transition:all .5s ease;
+ 
+  &:hover{
+    #transform:rotate(180deg);
+  }
+}
+ 
+#ico{
+  display: none;
+}
+ 
+.menu{
+  background: #000;
+  display: none;
+  padding: 5px;
+  width: 320px;
+  @include border-radius(5px);
+ 
+  #transition: all 0.5s ease;
+ 
+  a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 10px 2px;
+    margin: 3px 0;
+    text-decoration: none;
+    background: #444;
+ 
+    &:nth-child(1){
+      margin-top: 0;
+      @include border-radius(3px 3px 0 0 );
+    }
+    &:nth-child(5){
+      margin-bottom: 0;
+      @include border-radius(0 0 3px 3px);
+    }
+ 
+    &:hover{
+      background: #555;
+    }
+  }
+}
